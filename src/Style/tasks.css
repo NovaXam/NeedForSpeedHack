@@ -1,0 +1,23 @@
+.headerTask {
+    height: 6.5rem;
+    text-align: center;
+}
+
+.taskLineHeader {
+    margin: 10% auto 10%;
+    height: 4rem;
+    
+}
+
+.taskLineHeader h3 {
+    margin: 0;
+}
+
+.listOfTask {
+    overflow-y: hidden;
+    height: 35rem;
+}
+
+#taskLog {
+    height: 4rem;
+}

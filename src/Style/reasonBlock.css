@@ -1,0 +1,24 @@
+.reasonBlock {
+    text-align: end;
+    margin: 5% 5% 0% 5%;
+}
+
+.reasonButton {
+    margin: 12% 0% 0% 87%;
+}
+
+.descTaskBlock {
+    margin: 5% 0% 5% 5%;
+}
+
+.reasonButton {
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 2px solid lightgray;
+    background: orange;
+    border-radius: 90%;
+}
+
+.descTaskBlock h5 {
+    margin-bottom: 0%;
+}
