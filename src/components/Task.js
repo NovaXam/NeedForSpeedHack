@@ -1,8 +1,7 @@
 import React from 'react';
 import '../Style/reasonBlock.css';
 
-const Task = (props) =>  {
-    console.log(props);
+const Task = (props) => {
     return (  
         <div className="row no-gutters task" style={{background: props.color}}>
             <div className="col col-sm-9 descTaskBlock">

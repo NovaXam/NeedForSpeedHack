@@ -9,11 +9,9 @@ class Tasks extends Component {
         this.state = {
             colorSchema: ["#D8E0E0", "#969C9B"]
         };
-
     };
 
     render() { 
-        console.log(this.props);
         return (  
             <div className="col col-sm-12 tasks">
                 <div className="row no-gutters align-items-center">
@@ -52,8 +50,8 @@ class Tasks extends Component {
                     </div>
                 </div>
                 <div className="row no-gutters">
-                    <button id="taskLog"className="btn btn-secondary col col-sm-6" type="button" >Patient Log </button>
-                    <button id="taskLog"className="btn btn-secondary col col-sm-6" type="button" > Task </button>
+                    <button id="taskLog"className="btn btn-secondary col col-sm-5" type="button" data-target="#exampleModal">Patient Log </button>
+                    <button id="taskLog"className="btn btn-secondary col col-sm-5" type="button" > Task </button>
                 </div>
             </div>
         );

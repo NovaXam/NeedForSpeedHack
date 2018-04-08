@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+.listOfTask {
+    overflow-y: auto;
+    height: 35rem;
+    margin-bottom: 3px;
+}
+
 .taskLineHeader {
     margin: 10% auto 10%;
     height: 4rem;
@@ -13,11 +19,7 @@
     margin: 0;
 }
 
-.listOfTask {
-    overflow-y: hidden;
-    height: 35rem;
-}
-
 #taskLog {
     height: 4rem;
+    margin: 0rem 0.05rem;
 }
